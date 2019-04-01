@@ -1,64 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <style>
+html {
+    background: grey;
+}
 .container {
         width: 900px;
     margin: 150px auto;
 }
 .header {
-    background-color: #eee;
+    background-color: rgb(68, 65, 65);
     min-height: 70px;
     position: relative;
-    border: 1px solid black;
     border-radius: 3px;
 }
 .content {
     background-color: #ddd;
-    min-height: 500px;
+    min-height: 400px;
     position: relative;
     top: 0px;
-    border: 1px solid black;
     border-radius: 3px;
 }
 h1 {
     float: left;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 17px;
+    color: white;
+    font-family: 'Times New Roman';
 }
 table {
     position: relative;
-    left: 170px;
+    left: 132px;
     padding: 10px;
-    border: 1px solid black;
     float: left;
     width: 100px;
     height: 70px;
+    color: grey;
 }
 table:hover {
-    background: grey;
-    color: red;
+    background: black;
+    color: white;
 }
 .profil1 {
     position: absolute;
     width: 600px;
     height: 400px;
-    margin: 20px 20px 20px 20px;
+    margin: 10px 20px 20px 20px;
     text-align: justify;
-    border: 1px solid black;
 }
 .profil2 {
+    text-align: left;
     position: absolute;
-    top: 0px;
+    top: 40px;
     right: -275px;
     width: 270px;
-    height: 450px;
-    border: 1px solid black
+    height: 350px;
 }
 .pic1 {
     width: 200px;
-    height: 300px;
-    border: 1px solid black;
-    margin: 40px 20px 20px 20px;
+    height: 250px;
+    margin: 60px 20px 20px 20px;
+    border: 2px solid whitesmoke;
 }
 .text1 {
     position: absolute;
@@ -66,11 +68,47 @@ table:hover {
     right: 15px;
     width: 350px;
     height: 300px;
-    border: 1px solid black;
     text-align: left;
 }
 p {
+    margin-top: 0px;
     font-size: 14px;
+}
+h1 {
+    font-weight: lighter;
+}
+h2 {
+    margin-top: 0px;
+    font-size: 35px;
+}
+button {
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 5px;
+    width: 220px;
+    height: 35px;
+    border: 1px solid rgb(202, 196, 196);
+    border-radius: 5px;
+    border: 1px solid white;
+}
+img {
+    float: left;
+    border-right: 1px solid white;
+}
+.tex1,.profil2,button,table,h1,p,h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.garis {
+    position: absolute;
+    top: 45px;
+    right: 5px;
+    width: 0px;
+    height: 300px;
+    border: 1px solid grey;
+}
+sub {
+    margin-left: 5px;
 }
 
 </style>
@@ -83,7 +121,7 @@ p {
 <body>
 <div class="container">
     <div class="header">
-        <h1>Logo Produk</h1>
+        <h1>ATHA<b>ZAKY</b></h1>
     <table><tr><th>Home</th></tr></table>
     <table><tr><th>Portofolio</th></tr></table>
     <table><tr><th>Blog</th></tr></table>
@@ -93,16 +131,21 @@ p {
     <div class="content">
         <div class="profil1">
          <div class="pic1">
-          <img src="https://wallpapertag.com/wallpaper/middle/b/7/5/433318-the-seven-deadly-sins-wallpapers-1920x1200-for-4k-monitor.jpg" width="200px" height="300px">
+          <img src="https://wallpapertag.com/wallpaper/middle/b/7/5/433318-the-seven-deadly-sins-wallpapers-1920x1200-for-4k-monitor.jpg" width="200px" height="250px">
          </div>
          <div class="text1">
           <h2>WEB DESIGNER</h2>
-          <p><b>Hello there! My name's steven and I'm a web designer from London, UK. Ibelieve in clean and minimalistic design and also think it is very important to make a web site compatible with all modern devices, like phone and tablets.</b></p>
+          <p><b>Hello there! My name's atha and I'm a web designer from Kediri, Indonesia. I believe in clean and minimalistic design and also think it is very important to make a web site compatible with all modern devices, like phone and tablets.</b></p>
           <p>Fell free to check out my work or view my resume. I am currently avaiable for hire, so if sound fit for your next project, don't hesitate to contact me!</p>
         </div>
         <div class="profil2">
-            <p>I'm a social person. Or at least that's what i keep telling my self. Either way, you can find me atleast that's what i keep telling myself. Either way, you can find me at the following places :</p>
+            <p>I'm a social person. Or at least that's what i keep telling my self. Either way, you can find me atleast that's what i keep telling myself. Either way, you can find me at the following places :</p><br>
+            <button style="background: rgb(2, 164, 223)"><img src="https://pbs.twimg.com/profile_images/1111729635610382336/_65QFl7B_400x400.png" width="25px" height="28px"><sub> @athazaky</sub></button><br>
+            <button style="background: rgb(60, 90, 153)"><img src="http://www.marketingreklam.com/wp-content/uploads/2017/10/facebook.png" width="25px" height="28px"><sub> Atha Zaky</sub></button><br>
+            <button style="background: rgb(0, 119, 181)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp1TVPHx0gOK-Zq0wb-VsD4gfpyEENGcQ2PnbrQAIIxL-Kw2XE" width="25px" height="28px"><sub> Atha Zaky</sub></button><br>
+            <button style="background: rgb(243, 119, 17)"><img src="https://proxymedia.woopic.com/951/f/180x180/p/store-fiches/e2f/fa6/0613b958caa17d712dbc249221/e2ffa60613b958caa17d712dbc249221.png" width="25px" height="28px"><sub> athazaky77@gmail.com</sub></button><br>
         </div>
+        <div class="garis"></div>
     </div>
 </div>
 </body>
